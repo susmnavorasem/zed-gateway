@@ -1,0 +1,14 @@
+{
+  "name": "zed-gateway",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Local OpenAI-compatible proxy for Zed Cloud API with account rotation",
+  "scripts": {
+    "start": "node src/gateway.mjs config.json",
+    "dev": "node --watch src/gateway.mjs config.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}

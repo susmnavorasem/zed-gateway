@@ -1,0 +1,13 @@
+{
+  "name": "zed-gateway",
+  "port": 18090,
+  "localKey": "zed-local-key",
+  "stateFile": "runtime/state/zed.json",
+  "defaultCooldownSeconds": 300,
+  "timeoutCooldownSeconds": 30,
+  "usageLimitCooldownSeconds": 86400,
+  "requestTimeoutMs": 120000,
+  "maxFailoverAttempts": 10,
+  "logLevel": "info",
+  "accounts": []
+}
